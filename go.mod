@@ -1,3 +1,3 @@
-module github.com/sinore69/go-packages
+module gopackages
 
 go 1.22.1

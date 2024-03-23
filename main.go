@@ -1,5 +1,11 @@
-package gopackages
+package main
 
-func Print() string {
-	return "print"
+import (
+	"fmt"
+	"gopackages/triplesum"
+)
+
+func main() {
+	fmt.Println("in main")
+	triplesum.Triplesum()
 }
